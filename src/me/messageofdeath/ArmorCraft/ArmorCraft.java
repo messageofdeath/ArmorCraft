@@ -34,6 +34,7 @@ public class ArmorCraft extends JavaPlugin {
 		Bukkit.getLogger().info(lprefix + log);
 	}
 	
+	
 	public void loadHelmets() {
 		// Leather Helmet
 		ShapedRecipe leatherhelmet = new ShapedRecipe(new ItemStack(Material.LEATHER, 5));

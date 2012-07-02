@@ -88,25 +88,25 @@ public class ArmorCraft extends JavaPlugin {
 	}
 	
 	public void loadLeggings() {
-		// Leather ChestPlate
+		// Leather Leggings
 		ShapedRecipe leatherlegs = new ShapedRecipe(new ItemStack(Material.LEATHER, 7));
 		leatherlegs.shape(new String[] {"A"});
 		leatherlegs.setIngredient('A', Material.LEATHER_LEGGINGS);
 		addRecipe(leatherlegs);
 		
-		// Iron ChestPlate
+		// Iron Leggings
 		ShapedRecipe ironlegs = new ShapedRecipe(new ItemStack(Material.IRON_INGOT, 7));
 		ironlegs.shape(new String[] {"A"});
 		ironlegs.setIngredient('A', Material.IRON_LEGGINGS);
 		addRecipe(ironlegs);
 		
-		// Gold ChestPlate
+		// Gold Leggings
 		ShapedRecipe goldlegs = new ShapedRecipe(new ItemStack(Material.GOLD_INGOT, 7));
 		goldlegs.shape(new String[] {"A"});
 		goldlegs.setIngredient('A', Material.GOLD_LEGGINGS);
 		addRecipe(goldlegs);
 		
-		// Diamond ChestPlate
+		// Diamond Leggings
 		ShapedRecipe diamondlegs = new ShapedRecipe(new ItemStack(Material.DIAMOND, 7));
 		diamondlegs.shape(new String[] {"A"});
 		diamondlegs.setIngredient('A', Material.DIAMOND_LEGGINGS);
@@ -114,25 +114,25 @@ public class ArmorCraft extends JavaPlugin {
 	}
 	
 	public void loadBoots() {
-		// Leather ChestPlate
+		// Leather Boots
 		ShapedRecipe leatherboots = new ShapedRecipe(new ItemStack(Material.LEATHER, 4));
 		leatherboots.shape(new String[] {"A"});
 		leatherboots.setIngredient('A', Material.LEATHER_BOOTS);
 		addRecipe(leatherboots);
 				
-		// Iron ChestPlate
+		// Iron Boots
 		ShapedRecipe ironboots = new ShapedRecipe(new ItemStack(Material.IRON_INGOT, 4));
 		ironboots.shape(new String[] {"A"});
 		ironboots.setIngredient('A', Material.IRON_BOOTS);
 		addRecipe(ironboots);
 				
-		// Gold ChestPlate
+		// Gold Boots
 		ShapedRecipe goldboots = new ShapedRecipe(new ItemStack(Material.GOLD_INGOT, 4));
 		goldboots.shape(new String[] {"A"});
 		goldboots.setIngredient('A', Material.GOLD_BOOTS);
 		addRecipe(goldboots);
 				
-		// Diamond ChestPlate
+		// Diamond Boots
 		ShapedRecipe diamondboots = new ShapedRecipe(new ItemStack(Material.DIAMOND, 4));
 		diamondboots.shape(new String[] {"A"});
 		diamondboots.setIngredient('A', Material.DIAMOND_BOOTS);
